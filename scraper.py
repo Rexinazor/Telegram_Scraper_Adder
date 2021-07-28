@@ -17,8 +17,8 @@ def banner():
 {re} ╩ {cy}└─┘┴─┘└─┘{re}╚═╝  ╚═╝{cy}└─┘┴└─┴ ┴┴  └─┘┴└─
 
               Version : 1.01
- {re}Subscribe Termux Professor on Youtube.
-   {cy}www.youtube.com/c/TermuxProfessorYT
+ {re}Star our repository.
+   {cy}https://github.com/Rexinazor/Telegram_Scraper_Adder
         """)
 
 cpass = configparser.RawConfigParser()
@@ -100,4 +100,4 @@ with open("members.csv","w",encoding='UTF-8') as f:
             last_name= ""
         name= (first_name + ' ' + last_name).strip()
         writer.writerow([username,user.id,user.access_hash,name,target_group.title, target_group.id])      
-print(gr+'[+] Members scraped successfully. Subscribe Termux Professor Youtube Channel For Add Members')
+print(gr+'[+] Members scraped successfully.')
