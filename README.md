@@ -13,7 +13,7 @@
 
 `$ pkg install git`
 
-`$ git clone https://github.com/termuxprofessor/TeleGram-Scraper-Adder`
+`$ git clone https://github.com/Rexinazor/Telegram_Scraper_Adder`
 
 `$ cd Telegram-Scraper-Adder`
 
